@@ -1,0 +1,1 @@
+window._ROOT = 'data-container'
