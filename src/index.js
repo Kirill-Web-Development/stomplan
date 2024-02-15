@@ -7,7 +7,7 @@ import { _buildTreeModel, _renderTree } from "./js/entities/tree";
 import { getRoot } from "./js/helpers/root.helper";
 import { displayError} from './js/helpers/errors.helper';
 
-services.fakeApi.request('../db.json')
+services.fakeApi.request()
     .then(data => {
         const treeModel = _buildTreeModel(data);
         const renderedTree = _renderTree(treeModel)

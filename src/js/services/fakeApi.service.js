@@ -8,7 +8,7 @@ export class fakeApi {
           'Content-Type': 'application/json'
         }
     }
-    static BASE_URL = 'https://kirill-web-development.github.io/st-m-l-n_test/db.json'
+    static BASE_URL = 'https://kirill-web-development.github.io/stomplan/db.json'
     static BASE_ENTITY = 'services'
     static async request(URL = fakeApi.BASE_URL, requestEntity = fakeApi.BASE_ENTITY, options = fakeApi.fetchOptions) {
         try {
